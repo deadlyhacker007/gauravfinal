@@ -1,0 +1,119 @@
+
+h1{
+   
+   background: rgb(1,130,204);
+   color:white;
+   text-align:center;
+   padding:50px;
+   margin-top: 0;
+   font-family:sans-serif;
+   font-size: 40px;
+
+}
+img{
+	height: 400px;
+}
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 100;
+}
+
+25% {
+	left: -200%;
+}
+
+45% {
+    left: -300%;
+
+}
+
+50% {
+		left: -400%;
+
+}
+
+70% {
+	left: -300%;
+}
+
+75% {
+	left: -200%;
+}
+
+95% {
+	left: -100%;
+}
+
+100% {
+	left: 0%;
+
+}
+
+}
+#slider{
+
+	background:black;
+	padding:10px;
+}
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+	
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite; 
+    float: left;
+}
+h2{
+
+	color:white;
+}
+p{
+	color:black;
+	font-size: 20px;
+}
+ul{ 
+	font-size: 20px;
+	color:white;
+}
+#footer{
+ clear:both;
+ background:grey;
+ color:red;
+ font-family: sans-serif;
+ font-size: 40px;
+ padding: 10px 10px;
+ margin-top: -10px;
+}
+#footer h1{
+	color:red;
+	background: black;
+  
+	}
+#footer a:hover{
+
+color:red;
+text-decoration: none;
+font-weight: bolder;	
+}	
+#footer a img{
+    width:100px;
+    height:100px;
+    margin-top: 0px;
+	
+
+}
